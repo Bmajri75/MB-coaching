@@ -1,0 +1,330 @@
+/* RESET  */
+*
+{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,h2,h3 {
+  margin-bottom: 20px;
+}
+
+p{
+  margin-bottom: 10px;
+}
+
+html, body
+{
+  font-family: 'Kanit', sans-serif;
+  color: #222;
+
+}
+
+nav > ul >span{
+  color: #E0C097;
+  padding: 1rem;
+
+}
+
+a 
+{
+  text-decoration: none;
+  color: #E0C097;
+}
+
+.btn {
+ display: inline-block;
+ padding: 15px 25px;
+ border-radius: 30px;
+ font-weight: 700px;
+ font-size: 14px;
+ border: 0px;
+ cursor: pointer;
+}
+
+.btn-primary {
+  background: #E0C097;
+  color: #222;
+  border: solid 1px #2D2424;
+}
+
+.btn-primary:hover {
+  background: #222;
+  color: #E0C097;
+  border: solid 1px #E0C097;
+  transition: all 0.5s ease;
+}
+
+.btn-dark{
+  background: #2D2424;
+  color: #E0C097;
+  border: solid 1px #E0C097; 
+}
+
+.btn-dark:hover {
+  background: #E0C097;
+  color: #2D2424;
+  border: solid 1px #2D2424;
+  transition: all 0.5s ease;
+}
+.container {
+  display: block;
+  margin: auto;
+  max-width: 1200px;
+ 
+ 
+}
+
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px ;
+}
+
+.my-20{
+  margin-top: 20px;
+  margin-bottom: 20px ;
+}
+.my-30{
+  margin-top: 30px;
+  margin-bottom: 30px ;
+}
+
+.underline {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.chip{
+  display: inline-block;
+  text-align: center;
+  width: 35px;
+  padding: 5px 5px;
+  border-radius: 100%;
+  background: #333;
+  color: white;
+  margin: 5px;
+}
+
+.chip-green{
+  background: #4CAF50;
+}
+.chip-light-blue{
+  background: #2196F3;
+}
+
+.chip-dark-blue{
+  background: #0D47A1;
+}
+.tramway-style{
+  border-top: #2196F3 solid 5px;
+  border-bottom: #2196F3 solid 5px; 
+  padding: 2px 9px 2px 9px;
+}
+/* Header  */
+
+.header {
+ background: #2D2424;
+ padding: 10px;
+}
+.header nav {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.header nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  align-items: center
+}
+
+.header nav ul li {
+  padding: 10px;
+  border: solid 1px #4f3a1f;
+  border-radius: 10px;
+}
+
+.header nav ul li:hover {
+  background: #4f3a1f;
+  transition: all 0.5s ease;
+}
+
+
+/* VP */
+
+.vp {
+ height: 800px;
+ background: url(../asset/images/_MAT0040.jpg) center ;
+  background-size: cover;
+  text-align: center;
+  
+}
+
+.vp-content {
+  max-width: 600px;
+  padding-top:50px;
+  color: white;
+  display: block;
+  margin: auto;
+}
+
+.vp-content h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.separateur {
+  display: block;
+  margin: 20px auto;
+  height: 5px;
+  width: 400px;
+  background: #E0C097;
+}
+
+.vp-content p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  
+}
+
+/* Features */
+
+.features{
+  padding: 100px 0px 100px 0px;
+  overflow: auto;
+  text-align: center;
+}
+
+.feature{
+  float: left;
+  width: 50%;
+  padding: 0px 20px 0px 20px;
+  
+}
+
+.feature p{
+  text-align: left;
+}
+
+
+.person{
+  height: 400px;
+  background: url(../asset/images/_MAT0308.jpg) center;
+  background-size: cover; 
+  /* center/cover equivalent a background size cover  */
+
+}
+
+.cta{
+ 
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #E0C097;
+ 
+}
+
+.reservation{
+  padding: 100px 0px 100px 0px;
+  text-align: center;
+}
+
+
+/* Footer */
+
+footer {
+  color: #E0C097;
+  background: #2D2424;
+  padding: 30px 0px 30px 0px;
+  text-align: center;
+}
+
+footer p{
+  margin-bottom: 0%;
+
+}
+
+
+/* PAGE WHERE  */
+
+
+.where{
+  padding: 180px 0px 100px 0px;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.where-img {
+  float: left;
+  width: 45%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.where-texte{
+  float: right;
+  width: 50%;
+}
+
+.where-texte h3{
+  margin-top: 50px;
+}
+
+
+
+/* Where  */
+.where{
+  padding: 180px 0px 100px 0px;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.where-img {
+  float: left;
+  width: 40%;
+  height:400px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.transport-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+
+/* Contact */
+
+
+
+.contact{
+  padding: 180px 0px 100px 0px;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.contact-form-container {
+ max-width: 600px;
+  margin: auto;
+}
+
+.contact-form-container form label {
+  display: block;
+  font-weight: 700;
+}
+
+
+.contact-form-container form input, textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.contact-form-container form input:focus, textarea:focus {
+  outline: none;
+  border: 1px solid #E0C097;
+}
